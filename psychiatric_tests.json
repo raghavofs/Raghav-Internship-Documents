@@ -1,0 +1,236 @@
+{
+    "BDI-II": {
+        "questions": [
+            {
+                "question": "I can sleep as well as usual.",
+                "options": ["I can sleep as well as usual", "I sleep somewhat less than usual", "I sleep a lot less than usual", "I sleep a little more than usual"]
+            },
+            {
+                "question": "I still enjoy the things I used to do.",
+                "options": ["I still enjoy the things I used to do", "I don't enjoy things as much as I used to", "I don't enjoy things at all", "I don't know"]
+            },
+            {
+                "question": "I don't feel sad.",
+                "options": ["I don't feel sad", "I feel sad much of the time", "I feel sad all the time", "I don't know"]
+            },
+            {
+                "question": "I am as interested in sex as I used to be.",
+                "options": ["I am as interested in sex as I used to be", "I am less interested in sex than I used to be", "I am much less interested in sex than I used to be", "I have no interest in sex at all"]
+            },
+            {
+                "question": "I have not experienced any change in my appetite.",
+                "options": ["I have not experienced any change in my appetite", "My appetite is slightly decreased", "My appetite is greatly decreased", "I have no appetite at all"]
+            },
+            {
+                "question": "I am no more tired than usual.",
+                "options": ["I am no more tired than usual", "I get tired more easily than usual", "I get tired very easily", "I am too tired to do anything"]
+            },
+            {
+                "question": "I am able to work as well as usual.",
+                "options": ["I am able to work as well as usual", "I am able to work, but not as well as usual", "I am able to work, but only with great difficulty", "I am unable to work at all"]
+            },
+            {
+                "question": "I can make decisions as well as usual.",
+                "options": ["I can make decisions as well as usual", "I have some difficulty making decisions", "I have a lot of difficulty making decisions", "I am unable to make decisions at all"]
+            },
+            {
+                "question": "I don't feel guilty.",
+                "options": ["I don't feel guilty", "I feel guilty some of the time", "I feel guilty most of the time", "I feel guilty all of the time"]
+            },
+            {
+                "question": "I am not particularly pessimistic.",
+                "options": ["I am not particularly pessimistic", "I am somewhat pessimistic", "I am very pessimistic", "I am extremely pessimistic"]
+            },
+            {
+                "question": "I am not irritable.",
+                "options": ["I am not irritable", "I am somewhat irritable", "I am very irritable", "I am extremely irritable"]
+            },
+            {
+                "question": "I am not having any thoughts of suicide.",
+                "options": ["I am not having any thoughts of suicide", "I have fleeting thoughts of suicide", "I have frequent thoughts of suicide", "I would kill myself if I had the chance"]
+            },
+            {
+                "question": "I am able to concentrate as well as usual.",
+                "options": ["I am able to concentrate as well as usual", "I have some difficulty concentrating", "I have a lot of difficulty concentrating", "I am unable to concentrate at all"]
+            },
+            {
+                "question": "I am not particularly self-critical.",
+                "options": ["I am not particularly self-critical", "I am somewhat self-critical", "I am very self-critical", "I am extremely self-critical"]
+            },
+            {
+                "question": "I am not disappointed in myself.",
+                "options": ["I am not disappointed in myself", "I am somewhat disappointed in myself", "I am very disappointed in myself", "I am extremely disappointed in myself"]
+            },
+            {
+                "question": "I am not a failure.",
+                "options": ["I am not a failure", "I am somewhat of a failure", "I am a failure", "I am a complete failure"]
+            },
+            {
+                "question": "I am not particularly anxious.",
+                "options": ["I am not particularly anxious", "I am somewhat anxious", "I am very anxious", "I am extremely anxious"]
+            },
+            {
+                "question": "I am not worried about my health.",
+                "options": ["I am not worried about my health", "I am somewhat worried about my health", "Iam very worried about my health", "I am extremely worried about my health"]
+            },
+            {
+                "question": "I am able to enjoy my activities.",
+                "options": ["I am able to enjoy my activities", "I am able to enjoy some of my activities", "I am able to enjoy very few of my activities", "I am unable to enjoy any of my activities"]
+            },
+            {
+                "question": "I am not worried about my future.",
+                "options": ["I am not worried about my future", "I am somewhat worried about my future", "I am very worried about my future", "I am extremely worried about my future"]
+            },
+            {
+                "question": "I am not sad.",
+                "options": ["I am not sad", "I am sad some of the time", "I am sad most of the time", "I am sad all of the time"]
+            }
+        ],
+        "metrics": {
+            "0-13": "Minimal depression",
+            "14-19": "Mild depression",
+            "20-28": "Moderate depression",
+            "29-63": "Severe depression"
+        },
+        "criteria": "\nThe BDI-II is a 21-question multiple-choice self-report inventory that is used to assess the severity of depression."
+    },
+    "GAD-7": {
+        "questions": [
+            {"question": "Feeling nervous, anxious, or on edge", "options": ["Not at all sure", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Not being able to stop or control worrying", "options": ["Not at all sure", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Worrying too much about different things", "options": ["Not at all sure", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Trouble relaxing", "options": ["Not at all sure", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Being so restless that it is hard to sit still", "options": ["Not at all sure", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Becoming easily annoyed or irritable", "options": ["Not at all sure", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Feeling afraid as if something awful might happen", "options": ["Not at all sure", "Several days", "More than half the days", "Nearly every day"]}
+        ],
+        "metrics": {
+            "0-4": "Minimal anxiety",
+            "5-9": "Mild anxiety",
+            "10-14": "Moderate anxiety",
+            "15-21": "Severe anxiety"
+        },
+        "criteria": "\nThe GAD-7 is a 7-question multiple-choice self-report inventory that is used to assess the severity of anxiety."
+    },
+    
+    "PHQ-9": {
+        "questions": [
+            {"question": "Little interest or pleasure in doing things", "options": ["Not at all", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Feeling down, depressed, or hopeless", "options": ["Not at all", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Trouble falling or staying asleep, or sleeping too much", "options": ["Not at all", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Feeling tired or having little energy", "options": ["Not at all", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Poor appetite or overeating", "options": ["Not at all", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down", "options": ["Not at all", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Trouble concentrating on things, such as reading the newspaper or watching TV", "options": ["Not at all", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Moving or speaking so slowly that other people could have noticed. Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual", "options": ["Not at all", "Several days", "More than half the days", "Nearly every day"]},
+            {"question": "Thoughts that you would be better off dead, or of hurting yourself", "options": ["Not at all", "Several days", "More than half the days", "Nearly every day"]}
+        ],
+        "metrics": {
+            "0-4": "Minimal symptoms",
+            "5-9": "Mild symptoms",
+            "10-14": "Moderate symptoms",
+            "15-19": "Moderately severe symptoms",
+            "20-27": "Severe symptoms"
+        },
+        "criteria": "\nThe PHQ-9 is a 9-question\nmultiple-choice self-report inventory that is used to assess the severity of depression."
+    },
+    "K10": {
+        "questions": [
+            {"question": "About how often did you feel tired out for no good reason?", "options": ["None of the time", "A little of the time", "Some of the time", "Most of the time", "All of the time"]},
+            {"question": "About how often did you feel nervous?", "options": ["None of the time", "A little of the time", "Some of the time", "Most of the time", "All of the time"]},
+            {"question": "About how often did you feel so nervous that nothing could calm you down?", "options": ["None of the time", "A little of the time", "Some of the time", "Most of the time", "All of the time"]},
+            {"question": "About how often did you feel hopeless?", "options": ["None of the time", "A little of the time", "Some of the time", "Most of the time", "All of the time"]},
+            {"question": "About how often did you feel restless or fidgety?", "options": ["None of the time", "A little of the time", "Some of the time", "Most of the time", "All of the time"]},
+            {"question": "About how often did you feel so restless you couldn't sit still?", "options": ["None of the time", "A little of the time", "Some of the time", "Most of the time", "All of the time"]},
+            {"question": "About how often did you feel depressed?", "options": ["None of the time", "A little of the time", "Some of the time", "Most of the time", "All of the time"]},
+            {"question": "About how often did you feel that everything was an effort?", "options": ["None of the time", "A little of the time", "Some of the time", "Most of the time", "All of the time"]},
+            {"question": "About how often did you feel so sad that nothing could cheer you up?", "options": ["None of the time", "A little of the time", "Some of the time", "Most of the time", "All of the time"]},
+            {"question": "About how often did you feel worthless?", "options": ["None of the time", "A little of the time", "Some of the time", "Most of the time", "All of the time"]}
+        ],
+        "metrics": {
+            "10-15": "Low distress",
+            "16-21": "Moderate distress",
+            "22-29": "High distress",
+            "30-50": "Very high distress"
+        },
+        "criteria": "The K10 is a 10-question multiple-choice self-report inventory that is used to assess the level of psychological distress."
+    },
+    "CAPS-5": {
+    "questions": [
+        {"question": "Have you had any recurrent, involuntary, and intrusive memories of the traumatic event(s) in the past month?", "options": ["No", "Yes, but not very distressing", "Yes, somewhat distressing", "Yes, very distressing", "Yes, extremely distressing"]},
+        {"question": "Have you had any recurrent, distressing dreams of the traumatic event(s) in the past month?", "options": ["No", "Yes, but not very distressing", "Yes, somewhat distressing", "Yes, very distressing", "Yes, extremely distressing"]},
+        {"question": "Have you acted or felt as if the traumatic event(s) were recurring (e.g., flashbacks) in the past month?", "options": ["No", "Yes, but not very distressing", "Yes, somewhat distressing", "Yes, very distressing", "Yes, extremely distressing"]},
+        {"question": "Have you had intense psychological distress or physiological reactivity to internal or external cues that symbolize or resemble an aspect of the traumatic event(s) in the past month?", "options": ["No", "Yes, but not very distressing", "Yes, somewhat distressing", "Yes, very distressing", "Yes, extremely distressing"]},
+        {"question": "Have you experienced dissociative symptoms (e.g., feeling detached from yourself or the world around you) during the traumatic event(s) in the past month?", "options": ["No", "Yes, but not very distressing", "Yes, somewhat distressing", "Yes, very distressing", "Yes, extremely distressing"]},
+        {"question": "Have you avoided or tried to avoid internal reminders of the traumatic event(s) (e.g., thoughts, feelings, memories) in the past month?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you avoided or tried to avoid external reminders of the traumatic event(s) (e.g., people, places, activities) in the past month?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had trouble remembering important parts of the traumatic event(s) in the past month?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had negative beliefs about yourself, others, or the world since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you felt persistently guilty or ashamed about the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had trouble experiencing positive emotions (e.g., happiness, love, excitement) since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you been irritable or had angry outbursts since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had trouble sleeping since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had trouble concentrating since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you been hypervigilant (e.g., always 'on the lookout' for danger) since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had an exaggerated startle response (e.g., jumping or reacting strongly to sudden noises) since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any self-destructive behaviors (e.g., self-mutilation, suicidal ideation) since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any reckless or impulsive behaviors (e.g., substance abuse, reckless driving) since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any dissociative symptoms (e.g., feeling detached from yourself or the world around you) during the traumatic event(s)?", "options": ["No", "Yes, but not very distressing", "Yes, somewhat distressing", "Yes, very distressing", "Yes, extremely distressing"]},
+        {"question": "Have you had any derealization symptoms (e.g., feeling like the world around you is unreal) during the traumatic event(s)?", "options": ["No", "Yes, but not very distressing", "Yes, somewhat distressing", "Yes, very distressing", "Yes, extremely distressing"]},
+        {"question": "Have you had any depersonalization symptoms (e.g., feeling like you are observing yourself from outside your body) during the traumatic event(s)?", "options": ["No", "Yes, but not very distressing", "Yes, somewhat distressing", "Yes, very distressing", "Yes, extremely distressing"]},
+        {"question": "Have you had any gaps in your memory for the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any dissociative flashbacks (e.g., feeling like you are reliving the traumatic event(s)) in the past month?", "options": ["No", "Yes, but not very distressing", "Yes, somewhat distressing", "Yes, very distressing", "Yes, extremely distressing"]},
+        {"question": "Have you had any dissociative experiences (e.g., feeling like you are in a dream or that things are not real) in the past month?", "options": ["No", "Yes, but not very distressing", "Yes, somewhat distressing", "Yes, very distressing", "Yes, extremely distressing"]},
+        {"question": "Have you had any feelings of detachment or estrangement from others since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any restricted range of affect (e.g., feeling numb or unable to experience emotions) since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any sense of a foreshortened future (e.g., feeling like you will not have a normal life span) since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any sleep disturbances (e.g., insomnia, nightmares) since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any irritability or anger outbursts since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any concentration problems since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any exaggerated startle response since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]},
+        {"question": "Have you had any hypervigilance since the traumatic event(s)?", "options": ["No", "Yes, but not very often", "Yes, somewhat often", "Yes, very often", "Yes, almost always"]}
+    ],
+    "metrics": {
+        "0-19": "No PTSD",
+        "20-39": "Subthreshold PTSD",
+        "40-59": "PTSD (mild)",
+        "60-79": "PTSD (moderate)",
+        "80-119": "PTSD (severe)"
+    },
+    "criteria": "The CAPS-5 is a 20-question clinician-administered scale that assesses the severity of PTSD symptoms in adults."
+    },
+    "MAST": {
+        "questions": [
+            {"question": "Do you feel you are a normal drinker?", "options": ["Yes", "No"]},
+            {"question": "Have you ever awakened the morning after some drinking the night before and found that you could not remember a part of the evening?", "options": ["Yes", "No"]},
+            {"question": "Does any near relative or close friend ever worry or complain about your drinking?", "options": ["Yes", "No"]},
+            {"question": "Can you stop drinking without difficulty after one or two drinks?", "options": ["Yes", "No"]},
+            {"question": "Do you ever feel guilty about your drinking?", "options": ["Yes", "No"]},
+            {"question": "Have you ever attended a meeting of Alcoholics Anonymous (AA)?", "options": ["Yes", "No"]},
+            {"question": "Have you gotten into physical fights when drinking?", "options": ["Yes", "No"]},
+            {"question": "Has drinking ever created problems between you and a near relative or close friend?", "options": ["Yes", "No"]},
+            {"question": "Has any family member or close friend gone to anyone for help about your drinking?", "options": ["Yes", "No"]},
+            {"question": "Have you ever lost friends because of your drinking?", "options": ["Yes", "No"]},
+            {"question": "Have you ever gotten into trouble at work because of drinking?", "options": ["Yes", "No"]},
+            {"question": "Have you ever lost a job because of drinking?", "options": ["Yes", "No"]},
+            {"question": "Have you ever neglected your obligations, your family, or your work for two or more days in a row because you were drinking?", "options": ["Yes", "No"]},
+            {"question": "Do you drink before noon fairly often?", "options": ["Yes", "No"]},
+            {"question": "Have you ever been told you have liver trouble such as cirrhosis?", "options": ["Yes", "No"]},
+            {"question": "After heavy drinking, have you ever had delirium tremens (D.T.s), severe shaking, visual or auditory (hearing) hallucinations?", "options": ["Yes", "No"]},
+            {"question": "Have you ever gone to anyone for help about your drinking?", "options": ["Yes", "No"]},
+            {"question": "Have you ever been hospitalized because of drinking?", "options": ["Yes", "No"]},
+            {"question": "Has your drinking ever resulted in your being hospitalized in a psychiatric ward?", "options": ["Yes", "No"]},
+            {"question": "Have you ever gone to any doctor, social worker, clergyman or mental health clinic for help with any emotional problem in which drinking was part of the problem?", "options": ["Yes", "No"]},
+            {"question": "Have you ever been arrested for drunk driving or driving after drinking?", "options": ["Yes", "No"]},
+            {"question": "Have you ever been arrested, even for a few hours, because of other behavior while drinking?", "options": ["Yes", "No"]}
+        ]
+        ,
+    "criteria": "The MAST is a 25-question self-administered screening tool designed to identify individuals with alcohol-related problems.",
+    "metrics": {
+        "0-4": "No alcohol problems",
+        "4-8": "Suggestive of alcohol problems",
+        "8-13": "Almost certainly alcohol problems",
+        "13-22": "Severe alcohol problems"
+    }
+    }
+}
