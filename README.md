@@ -14,7 +14,7 @@ A powerful tool for summarizing PDF documents, turning lengthy texts into concis
 ### Download and Install
 
 1. **Download the DMG file:**
-   - Visit the [Releases page](link-to-your-release) to download the latest version of the application.
+   - Visit (https://drive.google.com/file/d/18gdcdDZAHbBFRgfeV4bxuHrX6YEybkCQ/view?usp=sharing) to download the latest version of the application.
 
 2. **Install the Application:**
    - Open the downloaded DMG file.
